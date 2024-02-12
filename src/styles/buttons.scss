@@ -1,0 +1,88 @@
+.buttonSolid {
+  width: fit-content;
+  height: 43px;
+  padding: 0 22px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: var(--font-size-4);
+  font-family: var(--font-primary);
+  font-weight: var(--font-weight-2);
+  background-color: var(--pink);
+  color: var(--white);
+
+  border: 2px solid var(--pink);
+  border-radius: 8px;
+  box-shadow: -3px 4px 10.3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.buttonSolid:hover,
+.buttonSolid:active {
+  background-color: var(--pink-light);
+  border: 2px solid var(--pink-light);
+  color: var(--white);
+  transition: all 350ms ease-in-out;
+}
+
+.buttonDanger {
+  width: fit-content;
+  height: 43px;
+  padding: 0 22px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: var(--font-size-4);
+  font-family: var(--font-primary);
+  font-weight: var(--font-weight-2);
+  background-color: var(--orange);
+  color: var(--white);
+
+  border: 2px solid var(--orange);
+  border-radius: 8px;
+  box-shadow: -3px 4px 10.3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.buttonDanger:hover,
+.buttonDanger:active {
+  background-color: var(--orange-light);
+  border: 2px solid var(--orange-light);
+  color: var(--white);
+  transition: all 350ms ease-in-out;
+}
+
+.buttonOutline {
+  width: fit-content;
+  height: 43px;
+  padding: 0 22px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: var(--font-size-4);
+  font-family: var(--font-primary);
+  font-weight: var(--font-weight-2);
+  background-color: var(--transparent);
+  color: var(--pink);
+
+  border: 2px solid var(--pink);
+  border-radius: 8px;
+  box-shadow: -3px 4px 10.3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.buttonOutline:hover,
+.buttonOutline:active {
+  background-color: var(--pink);
+  border: 2px solid var(--pink);
+  color: var(--white);
+  transition: all 350ms ease-in-out;
+}
+
+.link,
+.link:visited {
+  color: var(--black);
+}

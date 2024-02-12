@@ -1,0 +1,60 @@
+.page {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 109, 40, 0.31) 0%,
+    rgba(255, 120, 240, 0.31) 100%
+  );
+}
+
+.loginContentBox {
+  border-radius: 8px;
+  background: #fafcf8;
+  box-shadow: -1px 4px 13.3px 8px rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+
+  padding: clamp(30px, 5vw, 80px);
+
+  @media screen and (min-width: 700px) {
+    flex-direction: row;
+  }
+}
+
+.mainImage {
+  width: 80%;
+  display: flex;
+  align-self: center;
+
+  @media screen and (min-width: 700px) {
+    width: 50%;
+  }
+}
+
+.loginContent {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 100%;
+
+  @media screen and (min-width: 700px) {
+    width: 50%;
+  }
+}
+
+.logo {
+  height: 36px;
+}
+
+.logoDescription {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+// .form {
+//   display: flex;
+//   flex-direction: column;
+//   gap: 30px;
+// }

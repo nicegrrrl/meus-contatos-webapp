@@ -1,0 +1,30 @@
+.inputBox {
+  position: relative;
+
+  .icon {
+    position: absolute;
+    top: 12px;
+    left: 8px;
+    color: var(--gray-medium);
+  }
+}
+
+.input {
+  height: 40px;
+  background-color: var(--white-light);
+  padding-left: 36px;
+  padding-right: 8px;
+  border-radius: 8px;
+  outline: none;
+  color: var(--black);
+  font-family: var(--font-primary);
+  font-size: var(--font-size-4);
+
+  &::placeholder {
+    color: var(--gray-medium);
+  }
+
+  &:focus {
+    outline: 2px solid var(--yellow);
+  }
+}

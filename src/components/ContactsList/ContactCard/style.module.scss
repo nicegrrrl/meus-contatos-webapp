@@ -1,0 +1,41 @@
+.card {
+  padding: 30px 20px 20px 20px;
+  background-color: var(--yellow-light);
+  min-width: 312px;
+  min-height: 183px;
+  border-radius: 8px;
+  box-shadow: 2px 4px 19.2px 2px rgba(0, 0, 0, 0.25);
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.textContent {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.contactInfo {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.contactInfoIcon {
+  color: var(--gray-medium);
+}
+
+.buttons {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+}
+
+.button {
+  &:hover {
+    color: var(--pink);
+    transition: all 150ms ease-in-out;
+  }
+}

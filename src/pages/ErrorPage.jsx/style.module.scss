@@ -1,0 +1,22 @@
+.page {
+  background: linear-gradient(
+    180deg,
+    rgba(176, 255, 163, 0.39) 0%,
+    rgba(255, 120, 240, 0.31) 100%
+  );
+  width: 100%;
+  height: 100vh;
+}
+
+.content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.errorImg {
+  width: 216px;
+}

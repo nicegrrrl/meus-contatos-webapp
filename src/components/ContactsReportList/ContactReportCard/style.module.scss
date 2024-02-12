@@ -1,0 +1,12 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.name,
+.infos {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}

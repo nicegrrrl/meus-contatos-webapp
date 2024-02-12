@@ -1,0 +1,36 @@
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media screen and (min-width: 670px) {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+  }
+}
+
+.reportInfos {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.client {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.clientInfos {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

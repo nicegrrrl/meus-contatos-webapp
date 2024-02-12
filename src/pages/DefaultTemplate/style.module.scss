@@ -1,0 +1,7 @@
+.main {
+  min-height: 76.8vh;
+
+  @media screen and (min-width: 670px) {
+    min-height: 75vh;
+  }
+}

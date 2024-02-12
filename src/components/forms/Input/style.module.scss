@@ -1,0 +1,25 @@
+.inputBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  height: 36px;
+  padding: 5px;
+  font-size: var(--font-size-5);
+  font-family: var(--font-primary) !important;
+  border: 0;
+  border-bottom: 2px solid var(--gray-light);
+  outline: 0;
+  color: var(--black);
+}
+
+.input:focus {
+  transition: all 250ms ease-in-out;
+  border-bottom: 2px solid var(--yellow);
+}
+
+.label {
+  font-size: var(--font-size-6);
+  color: var(--gray-medium);
+}

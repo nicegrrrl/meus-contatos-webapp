@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Moul&display=swap");
+
+:root {
+  --pink: #ff78f0;
+  --pink-light: rgba(255, 120, 240, 0.8);
+  --black: #0d0c0c;
+  --gray-medium: #b1acac;
+  --white: #fafcf8;
+  --white-light: #fff;
+  --green: #f5fce0;
+  --green-dark: #86A789;
+  --orange: #ff6d28;
+  --orange-light: rgba(255, 109, 40, 0.8);
+  --orange-light-2: #FFA447;
+  --yellow: #ffea20;
+  --blue-light: #d1efff;
+  --yellow-light: #fbffd2;
+  --green-light: #e0ffdb;
+  --gray: #818080;
+  --gray-light: #f3f3f3;
+
+  --toastify-color-success: var(--green-dark);
+  --toastify-color-error: var(--orange-light-2);
+  --toastify-color-transparent: rgba(255, 255, 255, 0.2);
+
+  --font-size-1: 2.25rem; /* 36px */
+  --font-size-2: 1.5rem; /* 24px */
+  --font-size-3: 1.25rem; /* 20px */
+  --font-size-4: 1rem; /* 16px */
+  --font-size-5: 0.875rem; /* 14px */
+  --font-size-6: 0.75rem; /* 12px */
+  --font-size-7: 0.625rem; /* 10px */
+
+  --font-weight-1: 700; /* bold */
+  --font-weight-2: 600; /* semibold */
+  --font-weight-3: 400; /* regular */
+  --font-weight-4: 300; /* light */
+
+  --line-height: 150%;
+
+  --font-primary: "Montserrat", sans-serif;
+  --font-secondary: "Moul", serif;
+}
+
+body {
+  font-family: var(--font-primary);
+  height: 100vh;
+}
